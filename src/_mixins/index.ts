@@ -7,7 +7,7 @@ export type {
   Theme
 } from './use-theme'
 export { default as useConfig, defaultClsPrefix } from './use-config'
-export { default as useLocale } from './use-locale'
+// export { default as useLocale } from './use-locale'
 export { default as useStyle } from './use-style'
 export { default as useHljs } from './use-hljs'
 export type { Hljs } from './use-hljs'

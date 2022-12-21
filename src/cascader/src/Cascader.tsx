@@ -29,12 +29,12 @@ import type { SelectBaseOption } from '../../select/src/interface'
 import { NInternalSelection } from '../../_internal'
 import type { InternalSelectionInst } from '../../_internal'
 import {
-  useLocale,
   useTheme,
   useConfig,
   useFormItem,
   useThemeClass
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import {
   call,

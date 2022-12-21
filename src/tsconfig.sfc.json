@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "exclude": ["./**/*.spec.*"],
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../../naive-ui-release/es",
+    "module": "ES6",
+    "target": "ES6",
+    "jsx": "react"
+  }
+}

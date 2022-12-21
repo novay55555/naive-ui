@@ -11,7 +11,8 @@ import {
   onDeactivated
 } from 'vue'
 import { createId } from 'seemly'
-import { useConfig, useLocale, useTheme, useThemeClass } from '../../_mixins'
+import { useConfig, useTheme, useThemeClass } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import { NBaseLoading } from '../../_internal'
 import { NPagination } from '../../pagination'
 import { createKey, resolveSlot, warnOnce } from '../../_utils'

@@ -42,10 +42,10 @@ import { NBaseIcon } from '../../_internal'
 import {
   useConfig,
   useTheme,
-  useLocale,
   useFormItem,
   useThemeClass
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import {
   call,

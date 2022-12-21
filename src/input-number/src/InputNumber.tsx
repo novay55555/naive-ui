@@ -19,7 +19,8 @@ import { NInput } from '../../input'
 import type { InputInst } from '../../input'
 import { NBaseIcon } from '../../_internal'
 import { NxButton } from '../../button'
-import { useTheme, useFormItem, useLocale, useConfig } from '../../_mixins'
+import { useTheme, useFormItem, useConfig } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import {
   MaybeArray,

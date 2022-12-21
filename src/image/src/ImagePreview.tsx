@@ -29,7 +29,8 @@ import {
   ZoomOutIcon,
   ResizeSmallIcon
 } from '../../_internal/icons'
-import { useConfig, useLocale, useTheme, useThemeClass } from '../../_mixins'
+import { useConfig, useTheme, useThemeClass } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import { NBaseIcon } from '../../_internal'
 import { NTooltip } from '../../tooltip'
 import { imageLight } from '../styles'

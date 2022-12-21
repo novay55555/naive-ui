@@ -1,6 +1,6 @@
 import { h, defineComponent, inject, PropType } from 'vue'
 import { NButton } from '../../button'
-import { useLocale } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import { transferInjectionKey } from './interface'
 
 export default defineComponent({

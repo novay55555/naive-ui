@@ -2,7 +2,7 @@ import { h, createTextVNode, PropType, defineComponent, computed } from 'vue'
 import { format, formatDistanceStrict, fromUnixTime } from 'date-fns/esm'
 import type { Locale } from 'date-fns'
 import formatInTimeZone from 'date-fns-tz/esm/formatInTimeZone'
-import { useLocale } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import { ExtractPublicPropTypes } from '../../_utils'
 
 export const timeProps = {

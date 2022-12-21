@@ -26,7 +26,8 @@ import {
   MoreIcon
 } from '../../_internal/icons'
 import type { ThemeProps } from '../../_mixins'
-import { useConfig, useLocale, useTheme, useThemeClass } from '../../_mixins'
+import { useConfig, useTheme, useThemeClass } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { PaginationTheme } from '../styles'
 import { paginationLight } from '../styles'
 import type { PageItem } from './utils'

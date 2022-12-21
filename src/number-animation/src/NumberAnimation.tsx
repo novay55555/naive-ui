@@ -9,7 +9,7 @@ import {
 import { round } from 'lodash-es'
 import type { ExtractPublicPropTypes } from '../../_utils'
 import { tween } from './utils'
-import { useLocale } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 
 export const numberAnimationProps = {
   to: {

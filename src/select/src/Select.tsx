@@ -34,10 +34,10 @@ import type { FormValidationStatus } from '../../form/src/interface'
 import {
   useTheme,
   useConfig,
-  useLocale,
   useFormItem,
   useThemeClass
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import {
   call,

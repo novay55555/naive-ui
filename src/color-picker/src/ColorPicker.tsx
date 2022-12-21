@@ -48,9 +48,9 @@ import {
   useFormItem,
   useConfig,
   useTheme,
-  useLocale,
   useThemeClass
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import { call, createKey, useAdjustedTo } from '../../_utils'
 import type { ExtractPublicPropTypes, MaybeArray } from '../../_utils'
 import { NButton } from '../../button'

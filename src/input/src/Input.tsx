@@ -36,12 +36,12 @@ import {
 } from '../../_internal'
 import {
   useTheme,
-  useLocale,
   useFormItem,
   useConfig,
   useThemeClass,
   useStyle
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import {
   call,

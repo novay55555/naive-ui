@@ -22,10 +22,10 @@ import { NBaseIcon } from '../../_internal'
 import {
   useTheme,
   useFormItem,
-  useLocale,
   useConfig,
   useThemeClass
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import { call, smallerSize, warnOnce } from '../../_utils'
 import type { MaybeArray, ExtractPublicPropTypes } from '../../_utils'

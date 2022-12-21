@@ -10,7 +10,8 @@ import {
 import { NButton } from '../../button'
 import { NBaseIcon } from '../../_internal'
 import { WarningIcon } from '../../_internal/icons'
-import { useConfig, useLocale, useThemeClass } from '../../_mixins'
+import { useConfig, useThemeClass } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import { keysOf, resolveSlot, resolveWrappedSlot } from '../../_utils'
 import { popconfirmInjectionKey } from './interface'
 

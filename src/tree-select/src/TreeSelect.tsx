@@ -39,10 +39,10 @@ import { NEmpty } from '../../empty'
 import {
   useConfig,
   useFormItem,
-  useLocale,
   useTheme,
   useThemeClass
 } from '../../_mixins'
+import { default as useLocale } from '../../_mixins/use-locale'
 import type { ThemeProps } from '../../_mixins'
 import {
   call,
@@ -227,7 +227,8 @@ export default defineComponent({
         createTreeMateOptions(
           props.keyField,
           props.childrenField,
-          props.disabledField
+          props.disabledField,
+          undefined
         )
       )
     )
